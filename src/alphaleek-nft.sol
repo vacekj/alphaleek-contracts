@@ -12,7 +12,7 @@ contract MyToken is ERC721, ERC721URIStorage, AccessControl {
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
     Counters.Counter private _tokenIdCounter;
 
-    constructor() ERC721("MyToken", "MTK") {
+    constructor() ERC721("AlphaLeek", "ALK") {
         _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
         _grantRole(MINTER_ROLE, msg.sender);
     }
