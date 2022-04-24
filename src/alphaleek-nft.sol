@@ -6,7 +6,7 @@ import "../lib/openzeppelin-contracts/contracts/token/ERC721/extensions/ERC721UR
 import "../lib/openzeppelin-contracts/contracts/access/AccessControl.sol";
 import "../lib/openzeppelin-contracts/contracts/utils/Counters.sol";
 
-contract MyToken is ERC721, ERC721URIStorage, AccessControl {
+contract AlphaLeek is ERC721, ERC721URIStorage, AccessControl {
     using Counters for Counters.Counter;
 
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");

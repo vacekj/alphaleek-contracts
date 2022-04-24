@@ -1,0 +1,1 @@
+forge create ./src/alphaleek-nft.sol:AlphaLeek -i
